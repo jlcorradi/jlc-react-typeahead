@@ -1,9 +1,20 @@
-/* add css module styles here (optional) */
+.typeaheadContainer {
+	position: relative;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.typeaheadBody {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: 2px 4px 4px #f0f0f0;
+}
+
+.active {
+  background-color: rgb(235, 235, 235, 0.5);
 }
